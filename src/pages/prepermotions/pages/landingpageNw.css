@@ -1,0 +1,254 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer_cont {
+    min-height: 100vh;
+    background-color: #FEF5E6;
+    display: flex;
+    justify-content: center;
+}
+.inner_cont {
+    /* height: 500px; */
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+/* @media screen and (max-width: 1080px) {
+    
+    .inner_cont {
+        max-height: 95vh;
+        
+    }
+
+    
+
+}*/
+@media screen and (max-width: 1080px) {
+    
+    .inner_cont {
+       height: 100%;
+        
+    }
+    .section2 {
+        margin-top: 55px;
+    }
+    .section2 p{
+        margin-bottom: 20px !important;
+    }
+
+    
+
+} 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Default for larger screens */
+    order: 1; /* Ensure this comes first */
+}
+
+.section2 h1 {
+    text-align: center;
+    color: #353535;
+    margin-top: 20px;
+}
+
+.Login-Button {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.Login-Button button {
+    background-color: #353535;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.section2 p {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+.email_input {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.email_input input {
+    width: 80%;
+    height: 50px;
+    background-color: #FFFFFF;
+    padding: 0 0 0 4%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+.email_input input::placeholder {
+    color: #BEBEBE;
+}
+
+.email_input button {
+    width: 20%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #EF941F;
+    color: white;
+}
+
+.loading-indicator:before {
+    content: '';
+    background: #00000080;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.loading-indicator:after {
+    content: ' ';
+    position: fixed;
+    top: 40%;
+    left: 45%;
+    z-index: 10010;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #F5CB16;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+/* Media Query for screens less than or equal to 768px */
+@media screen and (max-width: 1080px) {
+
+    .section2 {
+        /* margin-top: 90px;         */
+    }
+    .landing-text-wrapper{
+       /* margin-bottom: 0px !important; */
+    }
+
+
+}
+@media screen and (max-width: 768px) {
+    .inner_cont {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    /* .section2 {
+        width: 100%; 
+        padding: 20px;
+        order: 1; 
+    } */
+
+    .section11 {
+        width: 100%;
+        margin-top: 20px; /* Ensure this section is pushed down */
+    }
+
+    .Login-Button {
+        top: 15px;
+        right: 10px;        
+    }
+
+    .section2 h1 {
+        font-size: 28px; /* Smaller font size */
+    }
+
+    .email_input input, 
+    .email_input button {
+        height: 45px; /* Adjust height */
+    }
+
+    .email_input input {
+        width: 75%; /* Adjust width */
+    }
+
+    .email_input button {
+        width: 25%;
+    }
+}
+
+/* Media Query for screens less than or equal to 480px */
+@media screen and (max-width: 480px) {
+    .section2 h1 {
+        font-size: 24px; /* Further adjust for small screens */
+    }
+
+    .Login-Button button {
+        padding: 8px 15px; /* Reduce button padding */
+    }
+
+    .email_input input {
+        width: 70%; /* Adjust input width */
+    }
+
+    .email_input button {
+        width: 30%; /* Adjust button width */
+    }
+}
+
+/* Additional Media Queries */
+@media screen and (max-width: 1240px) {
+    .cta {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .landing-logo-mbl{
+        display: block;
+        display: flex;
+        flex-direction: row !important;
+        position: absolute;
+    top: 25px;
+    left: 20px;
+    display: flex;
+    gap: 5px;
+    }
+    .landing-logo-mbl-header{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .inner_cont {
+        flex-direction: column-reverse;
+    }
+    .landing-logo-laptop{
+        display: none;
+    }
+
+    .section11, .section2 {
+        width: 100%;
+    }
+}
+

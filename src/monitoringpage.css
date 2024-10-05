@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    height: 70vh;
+    width: 100vw;
+    padding:10px 0;
+    background-color: red;
+}
+.headerStrip{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+.qurill{
+    font-size: 24px;
+}
+.section1Cont{
+    padding: 0 10%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    /* border-bottom: 1px solid black; */
+}
+.section1InnerCont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+/* background-color: brown; */
+
+}
+.hd1{
+    font: 20px inter,sans-serif;
+    margin-bottom: 15px;
+
+}
+.hd2{
+    font: 30px inter,sans-serif;
+font-weight: bold;
+color: white;
+margin-bottom: 15px;
+text-align: center;
+}
+.para1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.linkbox{
+    width: 100%;
+    height:40px;
+    /* border:1px solid black; */
+    background-color:white;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+.appLinks{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appLinks button{
+    height: 55px;
+    width: 35px;
+}
+.appLinks button img{
+    width: 100%;
+    height:100%;
+}
+.medium{
+    /* height: 100%;
+    width: 2px;
+    border: 2px solid black;
+    background-color: black; */
+    margin: 0 15px;
+    font-size: 30px;
+}
+.section2 header{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+.progressBarOuterSection{
+    width: 100%;
+   
+}
+.progressBarInnerSection{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.firstRow{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.firstRow p{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #edecea;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.progressBarOuterDi{
+    width: 100%;
+    height: 4px;
+    background-color: gray;
+    border-radius: 1px;
+    display: flex;
+}
+.active{
+background-color: brown !important;
+}
+.progressBarOuterDi span{
+    width: 100%;
+background-color: #edecea;
+}
+.lastRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastRow P{
+    width: 80px;
+    text-align: center;
+   padding: 0 0 0 15px;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.footer p{
+   font-size: 16px;
+}
+.footer .para1{
+    
+    width: 100%;
+    text-align: center;
+display: block;
+margin: 15px 0 5px 0;
+
+}
+.footer .para2{
+    width: 100%;
+text-align: center;
+display: block;
+margin-top: -35px;
+padding:0 0 40px 0;
+}

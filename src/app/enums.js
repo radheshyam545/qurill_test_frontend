@@ -1,0 +1,6 @@
+export const USER_ROLE = {
+    SEEKER: "SEEKER",
+    EMPLOYER: "EMPLOYER",
+    RECRUITER: "RECRUITER",
+    SUPER_ADMIN: "SUPER_ADMIN",
+  };
