@@ -53,11 +53,11 @@ const cencelmd = async () => {
      </div> */}
 
     {/* Single box component */}
-       <div className='w-[97%] border  border-[#D8D7D7] m-auto  p-5 rounded-[10px] bg-white'>     
+       {/* <div className='w-[97%] border  border-[#D8D7D7] m-auto  p-5 rounded-[10px] bg-white'>     
       <h2 className='text-2xl text-[18px] font-bold border-b border-slate-200 p-5'>
          Sign in & security
       </h2>
-       {/* component */}
+       component
       <div className='w-[100%] border-b border-[#D4D4D4] flex justify-between p-2'>
       <p className='font-semibold px-4 text-[15px]'>
         Change password <br/>
@@ -69,7 +69,7 @@ const cencelmd = async () => {
           Change
         </button>
       </div>
-    </div>
+    </div> */}
 
 
     {/* Single box component */}
